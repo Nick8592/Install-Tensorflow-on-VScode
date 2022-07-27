@@ -44,11 +44,13 @@ e.g. CUDA Toolkit 11.2.0
 (https://developer.nvidia.com/cudnn)  
 e.g. cuDNN v8.1.0 (January 26th, 2021), for CUDA 11.0,11.1 and 11.2
 
->Extract the “cudnn" file, and copy “bin, include, lib” folders into local folder, locate at somewhere like “C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2”.  
->>Search “Edit the system environment variables 檢視進階系統設定”, click right-bottom “”Environment Variables 環境變數..."  
->>>Double click “Path” at User variable for xxx.  
->>>>Copy “bin” and “libnvvp” folder full path, and add into environment virables as new path.  
-e.g. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin & C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
+    >Extract the “cudnn" file, and copy “bin, include, lib” folders into local folder,   
+    locate at somewhere like “C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2”. 
+    >>Search “Edit the system environment variables 檢視進階系統設定”, click right-bottom “”Environment Variables 環境變數..."  
+    >>>Double click “Path” at User variable for xxx.  
+    >>>>Copy “bin” and “libnvvp” folder full path, and add into environment virables as new path.  
+    e.g. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin  
+    & C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
 - **Restart computer**
 - **After restart, open Command Prompt “run as administrator”**
     
