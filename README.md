@@ -36,7 +36,7 @@ e.g. CUDA 11.0 >>> Visual C++ 2017
 (https://www.tensorflow.org/install/source)  
 e.g. tensorflow-2.5.0 >>> cuDNN 8.1, CUDA 11.2
 
-- **Go to NVIDIA download corresponding CUDA version**  
+- **Go to NVIDIA CUDA site download corresponding CUDA version**  
 (https://developer.nvidia.com/cuda-toolkit-archive)  
 e.g. CUDA Toolkit 11.2.0
 
